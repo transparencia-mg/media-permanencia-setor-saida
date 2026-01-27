@@ -1,0 +1,28 @@
+name: media-permanencia-setor-saida
+owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: mp_setor_saida
+    path: data/mp_setor_saida.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+        - name: ano
+          type: integer
+        - name: mes
+          type: integer
+        - name: setor_saida
+          type: string
+        - name: mp_por_setor_de_saida
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Media permanencia setor saida
