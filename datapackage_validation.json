@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.058,
+  "time": 0.06,
   "errors": [],
   "tasks": [
     {
@@ -42,7 +42,7 @@
         "scheme": "file",
         "title": "Insira um título humanamente legível para este recurso.",
         "stats": {
-          "hash": "d4b63cc3c72ea6416f52aab2091293e8",
+          "hash": "da8eb6c942f11e0c50c99f4fe4e7a5e8",
           "bytes": 148792,
           "fields": 5,
           "rows": 2551
