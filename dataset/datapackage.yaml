@@ -2,7 +2,7 @@ name: media-permanencia-setor-saida
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Dados de média de permanência por setor de saída hospitalar por unidade FHEMIG divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -15,14 +15,19 @@ resources:
       fields:
         - name: unidade
           type: string
+          description: "Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
         - name: ano
           type: integer
+          description: "Ano de referência."
         - name: mes
           type: integer
+          description: "Mês de referência."
         - name: setor_saida
           type: string
+          description: "Setor de saída."
         - name: mp_por_setor_de_saida
           type: string
+          description: "Média de permanência por setor de saída hospitalar (tempo médio em dias que os pacientes ficaram internados no setor de saída hospitalar)."
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Média de permanência por setor de saída hospitalar.
 title: Media permanencia setor saida
