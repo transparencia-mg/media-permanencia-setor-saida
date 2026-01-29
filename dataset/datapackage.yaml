@@ -29,5 +29,5 @@ resources:
           type: string
           description: "Média de permanência por setor de saída hospitalar (tempo médio em dias que os pacientes ficaram internados no setor de saída hospitalar)."
     scheme: file
-    title: Média de permanência por setor de saída hospitalar.
+    title: Média de permanência por setor de saída.
 title: Media permanencia setor saida
