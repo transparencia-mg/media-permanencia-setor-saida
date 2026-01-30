@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.058,
+  "time": 0.062,
   "errors": [],
   "tasks": [
     {
@@ -40,7 +40,7 @@
             {
               "name": "mp_por_setor_de_saida",
               "type": "string",
-              "description": "Média de permanência por setor de saída hospitalar (tempo médio em dias que os pacientes ficaram internados no setor de saída hospitalar)."
+              "description": "Média de permanência por setor de saída hospitalar (tempo médio de internação hospitalar total dos pacientes que deram saída no setor)."
             }
           ]
         },
@@ -53,7 +53,7 @@
           "rows": 2551
         }
       },
-      "time": 0.049,
+      "time": 0.053,
       "scope": [
         "hash-count-error",
         "byte-count-error",
