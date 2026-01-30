@@ -1,5 +1,4 @@
-Conjunto de dados referentes a unidade de medida que representa relação entre o total de pacientes-dia e o total de pacientes que tiveram saídas por setor do hospital em determinado período, incluindo os óbitos. Representa o tempo médio em dias que os pacientes ficaram internados por setor de saída.
+Conjunto de dados referentes a unidade de medida que representa o tempo médio de permanência hospitalar dos pacientes cuja saída ocorreu em determinado setor. Trata-se de um indicador utilizado para mensurar a permanência média dos pacientes de forma setorizada em todas as unidades Fhemig, incluindo as que ainda utilizam o sistema ERP SIGH, que não armazena dados sobre as movimentações intrahospitalares. Esse indicador apresenta distorções, pois toda a permanência de determinado paciente é contabilizada apenas no último setor de internação, mesmo que ele tenha passaegem por outros setores.
 
 Termos relacionados: duração média da internação por setor de saída.
 
-Fonte: https://bvsms.saude.gov.br/bvs/publicacoes/padronizacao_censo.pdf
